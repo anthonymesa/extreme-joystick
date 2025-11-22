@@ -13,7 +13,7 @@ function ruleExists() {
   }
 }
 
-if (proces.platform === "linux") {
+if (process.platform === "linux") {
 	(async () => {
 		  if (ruleExists()) {
 			    console.log("udev rule already installed.");
