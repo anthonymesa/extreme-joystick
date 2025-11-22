@@ -1,3 +1,3 @@
-const Joystick = require('./dist/joystick');
+const Joystick = require('./joystick');
 
 module.exports = Joystick;
