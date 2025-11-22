@@ -1,0 +1,16 @@
+{
+  "name": "extreme-joystick",
+  "version": "1.0.0",
+  "description": "Joystick library for Logitech Extreme 3D Pro",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "./scripts/postinstall.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "types": "index.d.ts",
+  "author": "Anthony Mesa",
+  "license": "MIT",
+  "dependencies": {
+    "node-hid": "^3.2.0"
+  }
+}
