@@ -7,19 +7,19 @@
   "author": "Anthony Mesa",
   "license": "MIT",
   "repository": {
-	"type": "git",
-	"url": "git+https://github.com/anthonymesa/extreme-joystick"
+    "type": "git",
+    "url": "git+https://github.com/anthonymesa/extreme-joystick"
   },
   "keywords": [
-	"joystick",
-	"hid",
-	"node-hid",
-	"gamepad"
+    "joystick",
+    "hid",
+    "node-hid",
+    "gamepad"
   ],
   "scripts": {
     "postinstall": "node postinstall.js"
   },
   "dependencies": {
-    "node-hid": "^3.2.0"
+    "node-hid": "^3.4.0"
   }
 }

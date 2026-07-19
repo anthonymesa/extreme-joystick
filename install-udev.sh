@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 RULE_FILE="/etc/udev/rules.d/99-joystick.rules"
 VENDOR="046d"

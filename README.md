@@ -13,7 +13,13 @@ On Linux, the postinstall script will offer to set up a udev rule so the device 
 ```bash
 sudo ./node_modules/extreme-joystick/install-udev.sh
 ```
+On NixOS specifically, the rules directory is read only, so you will need to enter the following in your system configuration file, and then rebiuld:
 
+```
+    services.udev.extraRules = ''
+      SUBSYSTEM=="hidraw", ATTRS{idVendor}=="046d", ATTRS{idProduct}=="c215", MODE="0666"
+    '';
+```
 ## Quick Start
 
 ### Event-driven (default)
